@@ -14,6 +14,16 @@ num1:number;
 num2:number;
 result:number;
 sub:number;
+nameValue:string;
+count:any;
+
+displayFoo(count){
+ console.log(count);
+
+}
+
+parentMessage="Parent Message";
+childMessage="Child Message";
 
 add(){
   this.result=this.num1+this.num2;
